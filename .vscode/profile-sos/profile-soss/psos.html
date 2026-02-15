@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Bubbler+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="psos.css" />
+    <meta charset="UTF-8" />
+    <title>Profile sos</title>
+  </head>
+
+  <body>
+    <div class="all">
+      <!--header-->
+      <div class="header">
+        <div class="link">
+          <a href="../../home/index.html">Home</a>
+          <a href="#">Contact Us</a>
+          <a href="#" id="prof">Profile</a>
+          <input placeholder="start typing..." />
+          <button class="btn">Search</button>
+        </div>
+      </div>
+
+
+        <!--dashboard-->
+
+        <div class="dashboard">
+            <div class="sidebar">
+              <img class="logo" src="s.png" />
+              <ul>
+                <li>
+                  <a href="Posteprof-societe/ppsos.html"> Professional event </a>
+                </li>
+                <li>
+                  <a href="postamu-societe/pasos.html"> Entertainment event </a>
+                </li>
+                <li>
+                    <a href="galerie/gal.html">galerie</a>
+                </li>
+                <li>
+                  <button class="btn">sign out</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+           <!--contenu principal-->
+
+         <div class="profile-card">
+            <div class="prof-pho">
+              <img src="prof2t.png" alt="profile photo" />
+    
+              <button class="btn">Change logo </button>
+            </div>
+            <div class="prof-info">
+              <h3>Personal Information</h3>
+    
+              <!--des information non modifiable-->
+              <div class="f-cont">
+                <div class="f-g">
+                  <div class="field">
+                    <label>company Name</label>
+                    <input type="texte"  readonly />
+                  </div>
+    
+                  <div class="field">
+                    <label>Email</label>
+                    <input type="Email"  readonly />
+                  </div>
+    
+                  <div class="field">
+                    <label>Tagline</label>
+                    <input type="text" readonly />
+                  </div>
+    
+                  <div class="field">
+                    <label>Target Market</label>
+                    <input type="text"  readonly />
+                  </div>
+                </div>
+                <!--des information modifiable-->
+                <div class="f-g">
+                  <div class="field">
+                    
+                      <label>Phone Number</label>
+                      <div class="tx">
+                      <input type="tel"  />
+                      <button class="btn">Edit</button>
+                    </div>
+                  </div>
+                    
+                     <div class="field">
+                         <label>Website</label>
+                         <div class="tx">
+                          <input type="text"  />
+                          <button class="btn">Edit</button>
+                         </div>
+                     </div>
+                </div>
+                <!--des information secondaires-->
+    
+                <div class="f-g">
+                  <div class="field">
+                    <label> Founded in </label>
+                    <input type="date"  />
+                  </div>
+    
+                  <div class="field">
+                    <label>Vision </label>
+                    <input type="text"  />
+                  </div>
+    
+                  <div class="field">
+                    <label>Mission </label>
+                    <input type="text"  />
+                  </div>
+    
+                  <div class="field">
+                    <label>Main Office</label>
+                    <input type="text"  />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <!--inform-->
+           <div class="abt">
+            <div class="abt-header">
+                <h2> About Us</h2>
+            </div>
+            
+                <textarea type="text" placeholder="" class="prn"></textarea>
+            
+            <div class="memb-header">
+                <h2>Team</h2>
+            </div>
+            <div class="memb">
+                <label>Chief Executive Officer</label>
+                <input type="text" placeholder=" CEO ...">
+                <label>Chief Operating Officer</label>
+                <input type="text" placeholder=" COO ...">
+                <label>Chief Technology Officerr</label>
+                <input type="text" placeholder=" CTO ...">
+                <label>Chief Financial Officer</label>
+                <input type="text" placeholder=" CFO...">
+                <label>Human Resources</label>
+                <input type="text" placeholder=" HR...">
+            </div>
+        </div>
+
+    </div>
+    <script src="prof.js"></script>
+  </body>
+</html>

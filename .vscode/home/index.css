@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    font-family: "Bubbler One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    background-color: #f2ede6;     
+}
+
+/*header*/
+
+
+.header{
+    background-color: #EFE7DA;
+    border: 4px solid rgb(127, 117, 105) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px 0 0 0;  
+}
+
+.link{
+    background-color: #F8F4EE;
+    border: 2px solid  rgb(129, 119, 107);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 50px 0px 50px 50px;  
+}
+
+.logo{
+    width: 100px;
+    border-radius: 20px;   
+}
+
+.link a{
+    color: black;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: #e4cfad;   
+}
+
+.link button{
+    background-color: #e4cfad;
+    border-color: #EFE7DA;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: "Bubbler One", sans-serif;
+}
+
+.btn{
+    background-color: #e4cfad;
+    border-color: #EFE7DA;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: "Bubbler One", sans-serif;
+
+}
+
+.btn:hover{
+  background-color: #eee1ce;  
+}
+
+.link input{
+    border-radius: 50px;
+    outline: none;
+    height: 23px;
+    padding: 0 10px;  
+}
+
+.link input:hover{
+    background-color: #EFE7DA;
+}
+
+/*landing*/
+
+.landing {
+    background-color: rgb(239, 231, 218);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(127, 117, 105);
+    border-image: initial;
+    padding: 10px 10px 10px 100px;
+    border-radius: 0px 0px 50px 50px;}
+
+
+    .chang {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+    }
+
+    .landing button {
+        background-color: rgb(228, 207, 173);
+        font-family: "Bubbler One", sans-serif;
+        border-color: rgb(239, 231, 218);
+        border-radius: 20px;
+        padding: 5px 15px;
+    }
+
+    .autre {
+        width: 300px;
+        margin: 50px 100px 50px 0px;
+        border-radius: 20px;
+    }
+
+    /*content*/
+
+    .content {
+        padding: 0px 400px;
+    }
+
+    .titre {
+        margin-left: 40%;
+        font-size: 200%;
+    }
+
+    .options-cards {
+        display: flex;
+        gap: 20px;
+    }
+
+    .card {
+        width: 300px;
+        background-color: rgb(239, 231, 218);
+        border-radius: 20px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(129, 119, 107);
+        border-image: initial;
+    }
+
+    .am {
+        margin-top: 79px;
+    }
+
+
+  
+    .prin {
+        width: 100%;
+        height: 275px;       /* même hauteur pour toutes */
+        object-fit: contain; /* garde la forme de l'image */
+        display: block;
+        
+    }
+    
+
+    .card-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 25px;
+    }
+
+    .card-info img {
+        width: 50px;
+        border-radius: 20px;
+    }
+
+    .cur img {
+        transition: 0.2s;
+    }
+    
+    .cur img:hover {
+        transform: translateY(-15px);
+    }
+
+    .prof{
+        position: absolute;
+        top: 95%;
+    
+    }
+
+    .cur-prof{
+        position: absolute;
+        left: 85%;
+    }
+    .ha{
+        width: 500px;
+    }
+    
+    
+    
+    
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

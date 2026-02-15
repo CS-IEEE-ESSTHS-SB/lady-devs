@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: "Bubbler One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    background-color: #f2ede6;     
+}
+
+/*header*/
+
+
+.header{
+    background-color: #EFE7DA;
+    border: 4px solid rgb(127, 117, 105) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px 0 0 0;  
+}
+
+.link{
+    background-color: #F8F4EE;
+    border: 2px solid  rgb(129, 119, 107);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 50px 0px 50px 50px;  
+}
+
+.logo{
+    width: 100px;
+    border-radius: 20px;   
+}
+
+.link a{
+    color: black;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: #e4cfad;   
+}
+
+.link button{
+    background-color: #e4cfad;
+    border-color: #EFE7DA;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: "Bubbler One", sans-serif;
+}
+
+.btn{
+    background-color: #e4cfad;
+    border-color: #EFE7DA;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: "Bubbler One", sans-serif;
+
+}
+
+.btn:hover{
+  background-color: #eee1ce;  
+}
+
+.link input{
+    border-radius: 50px;
+    outline: none;
+    height: 23px;
+    padding: 0 10px;  
+}
+
+.link input:hover{
+    background-color: #EFE7DA;
+}
+
+
+/*post*/
+.post{
+    background-color:  #EFE7DA;
+    border: 4px solid rgb(127, 117, 105) ;
+    border-radius: 50px 0 0 0;  
+    width: 60%;
+    height: auto;
+    margin-top: 1.5%;
+    margin-left: 25%;
+    padding-bottom: 2%;
+}
+
+
+.infor{
+    border-radius: 50px;
+    outline: none;
+    height: 23px;
+    padding: 5px 10px ;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.infor:hover{
+    background-color: #ece8e2;
+}
+
+.abt{
+    padding-left: 2%;
+    font-size: 125%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    width: 60%;
+    margin-left: 25%;
+    
+}
+
+.form textarea{
+    min-width: 60%;
+    max-width: 100%;
+    width: 70%;
+    height: 15%;
+    padding: 5%;
+}
+
+
+form{
+    border: 2px solid rgb(0, 0, 0) ;
+    border-radius: 50px 50px  
+}

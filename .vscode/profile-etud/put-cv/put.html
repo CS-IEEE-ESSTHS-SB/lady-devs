@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Bubbler+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="put.css" />
+    <meta charset="UTF-8" />
+    <title>put your cv </title>
+  </head>
+
+  <body>
+    <!--header-->
+    <div class="header">
+      <img class="logo" src="s.png" />
+
+      <div class="link">
+        <a href="../../home/index.html">Home</a>
+        <a href="#">Contact Us</a>
+        <a href="#" id="prof">Profile</a>
+        <input placeholder="start typing..." />
+        <button class="btn">Search</button>
+      </div>
+    </div>
+
+    <!--put-cv-->
+    <div class="cv">
+        <div class="titre">
+        <h2>Put Your Cv</h2>
+        <p>{Upload your cv (PDF only)}</p>
+        </div>
+        <div class="cv-card">
+            
+            <form>
+                <label>Download Your CV</label>
+                <input type="file" accept=".pdf" required>
+                <small >PDF only </small>
+                <button type="submit" class="btn">Upload Cv</button>
+            </form>
+           
+            <div class="cv-stat">
+                <p><strong>Uploaded CV</strong></p>
+                <a href="#">View CV</a>
+                <button class="btn">Replace</button>
+                <button class="btn">Delet</button>
+            </div>
+        </div>
+    </div>
+    <script src="prof.js"></script>
+  </body>
+</html>

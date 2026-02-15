@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    font-family: "Bubbler One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    background-color: #f2ede6;     
+}
+
+/*header*/
+
+
+.header{
+    background-color: #EFE7DA;
+    border: 4px solid rgb(127, 117, 105) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px 0 0 0;  
+}
+
+.link{
+    background-color: #F8F4EE;
+    border: 2px solid  rgb(129, 119, 107);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 50px 0px 50px 50px;  
+}
+
+.logo{
+    width: 100px;
+    border-radius: 20px;   
+}
+
+.link a{
+    color: black;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: #e4cfad;   
+}
+
+.link button{
+    background-color: #e4cfad;
+    border-color: #EFE7DA;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: "Bubbler One", sans-serif;
+}
+
+.btn{
+    background-color: #e4cfad;
+    border-color: #EFE7DA;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: "Bubbler One", sans-serif;
+
+}
+
+.btn:hover{
+  background-color: #eee1ce;  
+}
+
+.link input{
+    border-radius: 50px;
+    outline: none;
+    height: 23px;
+    padding: 0 10px;  
+}
+
+.link input:hover{
+    background-color: #EFE7DA;
+}
+
+/*cards*/
+
+.all{
+    background-color: #EFE7DA;
+    border: 4px solid rgb(127, 117, 105) ;
+    border-radius :0px 0px 0px 20px;
+    position: absolute;
+    top: 30%;
+}
+
+.content {
+    padding: 0px 400px;
+}
+
+.titre {
+    margin-left: 40%;
+    font-size: 200%;
+}
+
+.options-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 120px;
+    background-color: #F8F4EE;;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(129, 119, 107);
+    border-image: initial;
+    text-align: center;
+    
+}
+
+.am {
+    margin-top: 79px;
+}
+
+  
+
+
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 25px;
+}
+
+.card-info img {
+    width: 50px;
+    border-radius: 20px;
+}
+
+
+.cur img {
+    transition: 0.2s;
+    width: 15%;
+   
+}
+
+.cur img:hover {
+      transform: translateY(-15px);
+}
+
+.prof{
+    position: absolute;
+    top: 95%;
+
+}
+
+
+
+
+.allclu, .allso {
+    display: flex;       /* active Flexbox */
+    flex-wrap: wrap;     /* permet de passer à la ligne si trop de cards */
+    gap: 20px;           /* espace entre les cards */
+    justify-content: center; /* centre les cards dans la ligne */
+    margin: 20px 0;      /* espace autour du groupe */
+}
+
+/* Optionnel : centrage du texte dans chaque card */
+.allclu{
+    background-color: rgb(227, 216, 197);
+    border: 4px solid rgb(127, 117, 105) ;
+    padding: 3%;
+    border-radius: 50px;
+}
+
+.allso{
+    background-color: rgb(227, 216, 197);
+    border: 4px solid rgb(127, 117, 105) ;
+    padding: 3%;
+    border-radius: 50px; 
+}

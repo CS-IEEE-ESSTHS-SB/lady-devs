@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Bubbler+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="profile.css" />
+    <meta charset="UTF-8" />
+    <title>Profile Etudiant</title>
+  </head>
+
+  <body>
+    <div class="all">
+      <!--header-->
+      <div class="header">
+        <div class="link">
+          <a href="../home/index.html">Home</a>
+          <a href="#">Contact Us</a>
+          <a href="#" id="prof">Profile</a>
+          <input placeholder="start typing..." />
+          <button class="btn">Search</button>
+        </div>
+      </div>
+
+      <!--dashboard-->
+
+      <div class="dashboard">
+        <div class="sidebar">
+          <img class="logo" src="s.png" />
+          <ul>
+            <li>
+              <a href="profile.html" > Info </a>
+            </li>
+            <li>
+              <a href="cree-cv/cv.html" > cree cv </a>
+            </li>
+            <li>
+                <a href="put-cv/put.html" >Put Your CV</a>
+            </li>
+            <li>
+              <button class="btn">sign out</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--contenu principal-->
+
+      <div class="profile-card">
+        <div class="prof-pho">
+          <img src="prof2t.png" alt="profile photo" />
+
+          <button class="btn">Change Profile Picture</button>
+        </div>
+        <div class="prof-info">
+          <h3>Personal Information</h3>
+
+          <!--des information non modifiable-->
+          <div class="f-cont">
+            <div class="f-g">
+              <div class="field">
+                <label>Full name</label>
+                <input type="texte"  readonly />
+              </div>
+
+              <div class="field">
+                <label>Email</label>
+                <input type="Email"  readonly />
+              </div>
+
+              <div class="field">
+                <label>Date Of Birth</label>
+                <input type="date"  readonly />
+              </div>
+
+              <div class="field">
+                <label>Phone Number</label>
+                <input type="tel"  readonly />
+              </div>
+            </div>
+            <!--des information modifiable-->
+            <div class="f-g">
+              <div class="field">
+                <div class="tx">
+                  <label>Department / Faculty</label>
+                  <input type="text" />
+                  <button class="btn">Edit</button>
+                </div>
+              </div>
+                
+                 <div class="field">
+                     <label>Year / Level</label>
+                     <div class="tx">
+                      <input type="text" />
+                      <button class="btn">Edit</button>
+                     </div>
+                 </div>
+            </div>
+            <!--des information secondaires-->
+
+            <div class="f-g">
+              <div class="field">
+                <label>Another Number </label>
+                <input type="tel"  />
+              </div>
+
+              <div class="field">
+                <label>countries </label>
+                <input type="text" placeholder=" " />
+              </div>
+
+              <div class="field">
+                <label>Adresse </label>
+                <input type="text"  />
+              </div>
+
+              <div class="field">
+                <label>Postal Code </label>
+                <input type="text"  />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--To Do List-->
+      <div class="todo-cont">
+          <div class="todo-header">
+              <h2>My To-Do List</h2>
+          </div>
+          <div class="todo-input">
+            <input type="text" placeholder="New task">
+            <button class="btn">Add</button>  
+          </div>
+          <ul>
+              <li class="todo-item"></li>
+          </ul>
+
+
+      </div>
+    </div>
+    <script src="prof.js"></script>
+    
+  </body>
+</html>

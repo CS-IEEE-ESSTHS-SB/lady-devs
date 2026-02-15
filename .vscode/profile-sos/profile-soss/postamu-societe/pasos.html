@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Bubbler+One&display=swap"
+          rel="stylesheet"
+        />
+    
+        <link rel="stylesheet" href="pasos.css" />
+        <meta charset="UTF-8" />
+        <title>Postamu societe</title>
+    </head>
+
+    <body>
+         <!--header-->
+    <div class="header">
+        <img class="logo" src="s.png" />
+  
+        <div class="link">
+          <a href="../../../home/index.html">Home</a>
+          <a href="#">Contact Us</a>
+          <a href="#" id="prof">Profile</a>
+          <input placeholder="start typing..." />
+          <button class="btn">Search</button>
+        </div>
+      </div>
+
+      <!--form-->
+    <div class="post">
+      <div class="abt">
+          <h2>Create Post</h2>
+      </div>
+
+      <div class="form">
+          <label> Type </label>
+          
+          <select class="infor"id="tyselect" required>
+              <option value="">select type...</option>
+              <option>Art & Craft Sessions</option>
+              <option>Team Building</option>
+              <option>Gaming Tournaments</option>
+              <option>Trip/Outing</option>
+              <option>Internship</option>
+               <option value="Other">Other</option>
+          </select>
+               <input type="text" class="infor"  id="otherinput" style="display:none;"  placeholder="Entrez un autre type"> 
+                 
+        
+          <label>Title</label>
+          <input type="text" placeholder="" class="infor" required>
+
+          <label>Description</label>
+          <textarea placeholder="" class="infor" required></textarea>
+
+          <form>
+            <label>Download Your photo</label>
+            <input type="file" accept=".pdf" required>
+            <button type="submit" class="btn">Upload Photo</button>
+         </form> 
+
+
+
+          <label>Date</label>
+          <input type="date" class="infor" required>
+
+          <label>Location</label>
+          <input type="text" placeholder="" class="infor" required>
+
+          <label>Registration Link </label>
+          <input type="url" class="infor" placeholder="https://...">
+
+          <button type="submit" class="btn">Publish</button>
+      </div>
+    </div>
+
+    <script src="prof.js"></script>
+
+    
+    <script src="prof.js"></script>
+
+    <script>
+       const select =document.getElementById('tyselect');
+       const otherInput = document.getElementById('otherinput');
+
+       select.addEventListener('change',function(){
+         if(this.value=='Other'){
+           otherInput.style.display='block';
+         }else{
+          otherinput.style.display = 'none';
+         }
+        });
+    </script>
+    </body>
+</html>
