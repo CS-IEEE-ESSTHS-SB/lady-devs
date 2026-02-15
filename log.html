@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register</title>
+
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="form-box login">
+        <form>
+            <h1>Login</h1>
+            <br>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Mot de passe" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <br>
+
+            <div class="forgot-link">
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+            
+        </form>
+    </div>
+
+   <div class="form-box register" id="student-fields">
+    <form action="">
+        <h1>Student Registration</h1>
+        <br>
+
+        <div class="input-box register">
+            <input type="text" placeholder="Nom" required>
+        </div>
+
+        <div class="input-box register">
+            <input type="text" placeholder="Prénom" required>
+        </div>
+
+        <div class="input-box register">
+            <input type="email" placeholder="Email universitaire ou personnel" required>
+        </div>
+
+        <div class="input-box register">
+            <input type="tel" placeholder="Numéro de téléphone (optionnel)">
+        </div>
+
+
+        <div class="input-box register">
+            <input type="text" placeholder="Université / École" required>
+        </div>
+
+        <div class="input-box register">
+            <input type="text" placeholder="Filière / Spécialité" required>
+        </div>
+
+        <div class="input-box register">
+            <input type="text" placeholder="Niveau d’étude / Année académique" required>
+        </div>
+
+
+        <div class="input-box register">
+            <input type="password" placeholder="Mot de passe" required>
+        </div>
+
+        <div class="input-box register">
+            <input type="password" placeholder="Confirmation du mot de passe" required>
+        </div>
+        <button type="submit" class="btn">Register</button>
+    </form>
+</div>
+
+
+<div class="form-box register" id="club-fields">
+  <form action="">
+    
+    <h1> club registration</h1> 
+    <br>
+    <div class="input-box"> <input type="text" placeholder="nom du club" required> </div> 
+    <div class="input-box"> <input type="text" placeholder="type de club " required> </div>
+    <div class="input-box"> <input type="text" placeholder="Objectif du club " required> </div>
+    <div class="input-box"> <input type="number" placeholder="nombre des membres " required> </div>
+    <div class="input-box"> <input type="text" placeholder="Types d'événements organisés " required> </div>
+    <div class="input-box"> <input type="text" placeholder="Nom complet du responsable " required> </div> 
+    <div class="input-box"> <input type="text" placeholder="Role dans le club " required> </div>
+    <div class="input-box"> <input type="email" placeholder="Email" required> </div>
+    <div class="input-box"> <input type="tel" placeholder="Numéro de téléphone" required> </div>
+    <div class="input-box"> <input type="text" placeholder="local du club" required> </div>
+    <div class="input-box"> <input type="url" placeholder="Réseaux sociaux / site web (facultatif)" required> </div> 
+    <button type="submit" class="btn">register</button>
+  </form>
+</div>  
+<div class="form-box register" id="company-fields">
+    <form action=""> 
+        <h1>sosiété Registration</h1> 
+        <br>
+        <div class="input-box"> <input type="text" placeholder="Nom de l’entreprise" required> </div>
+        <div class="input-box"> <input type="text" placeholder="Secteur d’activité (Informatique, Finance…)" required> </div>
+        <div class="input-box"> <input type="text" placeholder="Pays / Ville" required> </div> 
+        <div class="input-box"> <input type="text" placeholder="Adresse de l’entreprise" required> </div> 
+        <div class="input-box"> <input type="url" placeholder="Site web officiel" required> </div> 
+        <div class="input-box"> <input type="email" placeholder="Email professionnel (@entreprise.com)" required> </div> 
+        <div class="input-box"> <input type="password" placeholder="Mot de passe" required> </div>
+        <div class="input-box"> <input type="password" placeholder="Confirmation du mot de passe" required> </div>
+    </form>          
+
+</div>
+
+*
+    <div class="toggle-box">
+        <div class="toggle-panel toggle-left">
+            <h1>Welcome!</h1>
+            <p>Don't have an account?</p>
+            <form>
+               <label>
+                  <input type="radio" name="role" value="etudiant"> Étudiant
+                </label>
+
+                <label>
+                    <input type="radio" name="role" value="club"> Club
+                </label>
+
+                <label>
+                    <input type="radio" name="role" value="recruteur"> société
+                 </label>
+            </form>
+            <br>
+
+            <button class="btn register-btn">Register</button>
+        </div>
+
+        <div class="toggle-panel toggle-right">
+            <h1>Welcome Back!</h1>
+            <p>Already have an account?</p>
+            <button class="btn login-btn">Login</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="log.js"></script>
+
+</body>
+</html>
